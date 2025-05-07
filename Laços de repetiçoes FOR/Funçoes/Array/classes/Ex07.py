@@ -38,7 +38,7 @@ for i in range(5):
 
 mostrar_dados(usuarios)
 
-nome_arquivo = "Funcionarios.txt"  # Definindo a variável nome_arquivo
+nome_arquivo = "Funcionarios.txt"  
 
 try:
     with open(nome_arquivo, "r", encoding="utf-8") as arquivo:
